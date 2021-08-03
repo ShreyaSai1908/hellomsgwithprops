@@ -2,7 +2,7 @@ function WelcomeMessage(props)
 {
     return(
        <div>
-           <p>{props.msg}</p>
+           <p>{props.msgtext}</p>
            <p>{props.children}</p>
        </div>
     ); 
